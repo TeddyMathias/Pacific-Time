@@ -1,7 +1,19 @@
-import '@styles/globals.css'
+// pages/_app.js
 
-function Application({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <div>
+      <style jsx global>{`
+        html {
+          scroll-behavior: smooth;
+        }
+      `}</style>
+      <Component {...pageProps} />
+    </div>
+  );
 }
 
-export default Application
+export default MyApp;
