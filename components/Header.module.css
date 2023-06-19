@@ -1,10 +1,24 @@
+/* Header.module.css */
+
 .header {
-  background-color: #00000000;
+  background-color: white;
   padding: 20px;
   text-align: center;
 }
 
-.menu ul {
+.menuWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  flex-grow: 1;
+}
+
+
+
+.menu {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -12,7 +26,7 @@
   margin: 0;
 }
 
-.menu ul li {
+.menu li {
   margin: 0 10px;
 }
 
@@ -21,7 +35,7 @@
   font-size: 2em;
 }
 
-.menu ul li a {
+.menu li a {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
@@ -31,4 +45,33 @@
   color: #fff;
   font-size: 24px;
 }
-/*  */
+
+.navbar {
+  background: #FFC400;
+}
+
+/* Header.module.css */
+/* ... previous styles ... */
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.socialIcon {
+  display: flex;
+  font-size: 2em;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  padding: 1px;
+}
+
+.socialIcon:hover {
+  color:grey;
+}
+
+.socialIcon a {
+  color: #000000;
+}

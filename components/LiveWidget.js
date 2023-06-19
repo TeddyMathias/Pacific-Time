@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import Link from 'next/link';
+import styles from './Header.module.css';
 
 const LiveWidget = ({artistId, cssVersion}) => {
 

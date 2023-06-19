@@ -1,0 +1,26 @@
+/* Override font color for specific elements */
+h1, .nav-link {
+    color: red!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .nav-link {
+    font-size: 2em!important;
+  }
+  
+  p {
+    color: blue;
+  }
+
+  .seated-event-date-cell, .seated-event-venue-name, .seated-event-details-cell, .seated-event-venue-location {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+a.seated-event-link.seated-event-link1 {
+    background-color: red;
+}
+  
+  /* Add more custom styles as needed */
+  
